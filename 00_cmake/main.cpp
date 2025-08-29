@@ -1,5 +1,5 @@
 #include <iostream>
-#include "foo.h"
+#include "src/foo.h"
 
 using namespace std;
 
