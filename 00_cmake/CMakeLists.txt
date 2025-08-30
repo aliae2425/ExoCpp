@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 4.1)
+project(libProject)
 
-project(FooProject)
+# Include pour la bibliothèque
+target_include_directories(matplot PUBLIC matplotplusplus/source)
 
-add_executable(foo main.cpp src/foo.cpp)
-target_include_directories(foo PRIVATE src)
+# Déclare l'exécutable
+add_executable(foo main.cpp)
+
