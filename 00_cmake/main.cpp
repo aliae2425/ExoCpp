@@ -1,6 +1,10 @@
 #include <cmath>
 #include <matplot/matplot.h>
 
+void hello(){
+    std::cout << "Hello, World!" << std::endl;
+}
+
 int main() {
     using namespace matplot;
     std::vector<double> x = linspace(0, 2 * pi);
